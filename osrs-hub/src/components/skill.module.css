@@ -1,0 +1,30 @@
+.img {
+    background-color: red;
+}
+
+.img:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+.skillname {
+    font-weight: 200;
+    padding: 0.6em;
+}
+
+.skillname:hover {
+    cursor: pointer;
+    animation: Glow 600ms linear infinite;
+}
+
+@keyframes Glow {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 20%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
