@@ -1,0 +1,33 @@
+.formatter {
+    position: absolute;
+    z-index: 1;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.form > h4 {
+    font-size: 30px;
+}
+
+.form {
+    margin-top: 10em;
+    position: relative;
+    left: 25%;
+}
+
+.button {
+    margin-left: 2em;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    color: lightgrey;
+}

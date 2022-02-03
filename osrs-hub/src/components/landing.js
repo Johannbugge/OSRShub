@@ -2,6 +2,7 @@ import style from './landing.module.css';
 import logo from '../assets/logo.svg';
 import { useState } from 'react';
 import Mainpage from './menu.js';
+import App from '../App';
 
 const Landing = (props) => {
     const [display, setDisplay] = useState(true);
